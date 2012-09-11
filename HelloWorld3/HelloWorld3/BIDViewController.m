@@ -39,7 +39,7 @@
     if (sender.tag==1) {
         NYImage.image=[UIImage imageNamed:@"Yankees-logo-300x300.png"];
         messageField.text=@"A Yankee fan, how boring";
-    }else {
+    }else  {
         NYImage.image=[UIImage imageNamed:@"metslogo300.png"];
         messageField.text=@"Yeah, you're a Mets fan";
     }
