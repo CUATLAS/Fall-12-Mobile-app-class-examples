@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75135B5C16237DA900FD6F86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75135B5B16237DA900FD6F86 /* UIKit.framework */; };
+		75135B5E16237DA900FD6F86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75135B5D16237DA900FD6F86 /* Foundation.framework */; };
+		75135B6016237DA900FD6F86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75135B5F16237DA900FD6F86 /* CoreGraphics.framework */; };
+		75135B6616237DA900FD6F86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75135B6416237DA900FD6F86 /* InfoPlist.strings */; };
+		75135B6816237DA900FD6F86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75135B6716237DA900FD6F86 /* main.m */; };
+		75135B6C16237DA900FD6F86 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75135B6B16237DA900FD6F86 /* MADAppDelegate.m */; };
+		75135B6F16237DA900FD6F86 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75135B6E16237DA900FD6F86 /* MADViewController.m */; };
+		75135B7216237DA900FD6F86 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75135B7016237DA900FD6F86 /* MADViewController.xib */; };
+		75135B7B16238A0600FD6F86 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75135B7916238A0600FD6F86 /* InfoViewController.m */; };
+		75135B7C16238A0600FD6F86 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75135B7A16238A0600FD6F86 /* InfoViewController.xib */; };
+		75135BB81624D71B00FD6F86 /* Favorite.m in Sources */ = {isa = PBXBuildFile; fileRef = 75135BB71624D71B00FD6F86 /* Favorite.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75135B5716237DA900FD6F86 /* Favorites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Favorites.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75135B5B16237DA900FD6F86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75135B5D16237DA900FD6F86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75135B5F16237DA900FD6F86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75135B6316237DA900FD6F86 /* Favorites-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Favorites-Info.plist"; sourceTree = "<group>"; };
+		75135B6516237DA900FD6F86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75135B6716237DA900FD6F86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75135B6916237DA900FD6F86 /* Favorites-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Favorites-Prefix.pch"; sourceTree = "<group>"; };
+		75135B6A16237DA900FD6F86 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		75135B6B16237DA900FD6F86 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		75135B6D16237DA900FD6F86 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		75135B6E16237DA900FD6F86 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		75135B7116237DA900FD6F86 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		75135B7816238A0600FD6F86 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		75135B7916238A0600FD6F86 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		75135B7A16238A0600FD6F86 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		75135BB61624D71B00FD6F86 /* Favorite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Favorite.h; path = ../Favorite.h; sourceTree = "<group>"; };
+		75135BB71624D71B00FD6F86 /* Favorite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Favorite.m; path = ../Favorite.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75135B5416237DA900FD6F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75135B5C16237DA900FD6F86 /* UIKit.framework in Frameworks */,
+				75135B5E16237DA900FD6F86 /* Foundation.framework in Frameworks */,
+				75135B6016237DA900FD6F86 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75135B4C16237DA900FD6F86 = {
+			isa = PBXGroup;
+			children = (
+				75135B6116237DA900FD6F86 /* Favorites */,
+				75135B5A16237DA900FD6F86 /* Frameworks */,
+				75135B5816237DA900FD6F86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75135B5816237DA900FD6F86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75135B5716237DA900FD6F86 /* Favorites.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75135B5A16237DA900FD6F86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75135B5B16237DA900FD6F86 /* UIKit.framework */,
+				75135B5D16237DA900FD6F86 /* Foundation.framework */,
+				75135B5F16237DA900FD6F86 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75135B6116237DA900FD6F86 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				75135BB61624D71B00FD6F86 /* Favorite.h */,
+				75135BB71624D71B00FD6F86 /* Favorite.m */,
+				75135B6A16237DA900FD6F86 /* MADAppDelegate.h */,
+				75135B6B16237DA900FD6F86 /* MADAppDelegate.m */,
+				75135B6D16237DA900FD6F86 /* MADViewController.h */,
+				75135B6E16237DA900FD6F86 /* MADViewController.m */,
+				75135B7016237DA900FD6F86 /* MADViewController.xib */,
+				75135B7816238A0600FD6F86 /* InfoViewController.h */,
+				75135B7916238A0600FD6F86 /* InfoViewController.m */,
+				75135B7A16238A0600FD6F86 /* InfoViewController.xib */,
+				75135B6216237DA900FD6F86 /* Supporting Files */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		75135B6216237DA900FD6F86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75135B6316237DA900FD6F86 /* Favorites-Info.plist */,
+				75135B6416237DA900FD6F86 /* InfoPlist.strings */,
+				75135B6716237DA900FD6F86 /* main.m */,
+				75135B6916237DA900FD6F86 /* Favorites-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75135B5616237DA900FD6F86 /* Favorites */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75135B7516237DA900FD6F86 /* Build configuration list for PBXNativeTarget "Favorites" */;
+			buildPhases = (
+				75135B5316237DA900FD6F86 /* Sources */,
+				75135B5416237DA900FD6F86 /* Frameworks */,
+				75135B5516237DA900FD6F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Favorites;
+			productName = Favorites;
+			productReference = 75135B5716237DA900FD6F86 /* Favorites.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75135B4E16237DA900FD6F86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Aileen Pierce";
+			};
+			buildConfigurationList = 75135B5116237DA900FD6F86 /* Build configuration list for PBXProject "Favorites" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75135B4C16237DA900FD6F86;
+			productRefGroup = 75135B5816237DA900FD6F86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75135B5616237DA900FD6F86 /* Favorites */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75135B5516237DA900FD6F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75135B6616237DA900FD6F86 /* InfoPlist.strings in Resources */,
+				75135B7216237DA900FD6F86 /* MADViewController.xib in Resources */,
+				75135B7C16238A0600FD6F86 /* InfoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75135B5316237DA900FD6F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75135B6816237DA900FD6F86 /* main.m in Sources */,
+				75135B6C16237DA900FD6F86 /* MADAppDelegate.m in Sources */,
+				75135B6F16237DA900FD6F86 /* MADViewController.m in Sources */,
+				75135B7B16238A0600FD6F86 /* InfoViewController.m in Sources */,
+				75135BB81624D71B00FD6F86 /* Favorite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75135B6416237DA900FD6F86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75135B6516237DA900FD6F86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75135B7016237DA900FD6F86 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75135B7116237DA900FD6F86 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75135B7316237DA900FD6F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75135B7416237DA900FD6F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75135B7616237DA900FD6F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Favorites/Favorites-Prefix.pch";
+				INFOPLIST_FILE = "Favorites/Favorites-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75135B7716237DA900FD6F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Favorites/Favorites-Prefix.pch";
+				INFOPLIST_FILE = "Favorites/Favorites-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75135B5116237DA900FD6F86 /* Build configuration list for PBXProject "Favorites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75135B7316237DA900FD6F86 /* Debug */,
+				75135B7416237DA900FD6F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75135B7516237DA900FD6F86 /* Build configuration list for PBXNativeTarget "Favorites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75135B7616237DA900FD6F86 /* Debug */,
+				75135B7716237DA900FD6F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75135B4E16237DA900FD6F86 /* Project object */;
+}
