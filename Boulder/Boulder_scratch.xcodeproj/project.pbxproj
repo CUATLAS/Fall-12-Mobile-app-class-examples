@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7564707C162B8DC700D75D1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7564707B162B8DC700D75D1A /* UIKit.framework */; };
+		7564707E162B8DC700D75D1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7564707D162B8DC700D75D1A /* Foundation.framework */; };
+		75647080162B8DC700D75D1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7564707F162B8DC700D75D1A /* CoreGraphics.framework */; };
+		75647086162B8DC700D75D1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75647084162B8DC700D75D1A /* InfoPlist.strings */; };
+		75647088162B8DC700D75D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75647087162B8DC700D75D1A /* main.m */; };
+		7564708C162B8DC700D75D1A /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7564708B162B8DC700D75D1A /* MADAppDelegate.m */; };
+		75647093162B91C700D75D1A /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75647092162B91C700D75D1A /* TabBarController.xib */; };
+		75647097162BABE200D75D1A /* MADFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75647095162BABE200D75D1A /* MADFirstViewController.m */; };
+		75647098162BABE200D75D1A /* MADFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75647096162BABE200D75D1A /* MADFirstViewController.xib */; };
+		756470A4162BAC6600D75D1A /* MADSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756470A2162BAC6600D75D1A /* MADSecondViewController.m */; };
+		756470A5162BAC6600D75D1A /* MADSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 756470A3162BAC6600D75D1A /* MADSecondViewController.xib */; };
+		756470AB162BAE2200D75D1A /* boulderflatirons.png in Resources */ = {isa = PBXBuildFile; fileRef = 756470AA162BAE2200D75D1A /* boulderflatirons.png */; };
+		756470AF162BB54B00D75D1A /* MADThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756470AD162BB54B00D75D1A /* MADThirdViewController.m */; };
+		756470B0162BB54B00D75D1A /* MADThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 756470AE162BB54B00D75D1A /* MADThirdViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75647077162B8DC700D75D1A /* Boulder_scratch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boulder_scratch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7564707B162B8DC700D75D1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7564707D162B8DC700D75D1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7564707F162B8DC700D75D1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75647083162B8DC700D75D1A /* Boulder_scratch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Boulder_scratch-Info.plist"; sourceTree = "<group>"; };
+		75647085162B8DC700D75D1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75647087162B8DC700D75D1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75647089162B8DC700D75D1A /* Boulder_scratch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boulder_scratch-Prefix.pch"; sourceTree = "<group>"; };
+		7564708A162B8DC700D75D1A /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		7564708B162B8DC700D75D1A /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		75647092162B91C700D75D1A /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		75647094162BABE200D75D1A /* MADFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADFirstViewController.h; sourceTree = "<group>"; };
+		75647095162BABE200D75D1A /* MADFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADFirstViewController.m; sourceTree = "<group>"; };
+		75647096162BABE200D75D1A /* MADFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADFirstViewController.xib; sourceTree = "<group>"; };
+		756470A1162BAC6600D75D1A /* MADSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MADSecondViewController.h; path = ../MADSecondViewController.h; sourceTree = "<group>"; };
+		756470A2162BAC6600D75D1A /* MADSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MADSecondViewController.m; path = ../MADSecondViewController.m; sourceTree = "<group>"; };
+		756470A3162BAC6600D75D1A /* MADSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MADSecondViewController.xib; path = ../MADSecondViewController.xib; sourceTree = "<group>"; };
+		756470AA162BAE2200D75D1A /* boulderflatirons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boulderflatirons.png; sourceTree = "<group>"; };
+		756470AC162BB54B00D75D1A /* MADThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADThirdViewController.h; sourceTree = "<group>"; };
+		756470AD162BB54B00D75D1A /* MADThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADThirdViewController.m; sourceTree = "<group>"; };
+		756470AE162BB54B00D75D1A /* MADThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADThirdViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75647074162B8DC700D75D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7564707C162B8DC700D75D1A /* UIKit.framework in Frameworks */,
+				7564707E162B8DC700D75D1A /* Foundation.framework in Frameworks */,
+				75647080162B8DC700D75D1A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7564706C162B8DC700D75D1A = {
+			isa = PBXGroup;
+			children = (
+				75647081162B8DC700D75D1A /* Boulder_scratch */,
+				7564707A162B8DC700D75D1A /* Frameworks */,
+				75647078162B8DC700D75D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75647078162B8DC700D75D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75647077162B8DC700D75D1A /* Boulder_scratch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7564707A162B8DC700D75D1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7564707B162B8DC700D75D1A /* UIKit.framework */,
+				7564707D162B8DC700D75D1A /* Foundation.framework */,
+				7564707F162B8DC700D75D1A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75647081162B8DC700D75D1A /* Boulder_scratch */ = {
+			isa = PBXGroup;
+			children = (
+				7564708A162B8DC700D75D1A /* MADAppDelegate.h */,
+				7564708B162B8DC700D75D1A /* MADAppDelegate.m */,
+				75647092162B91C700D75D1A /* TabBarController.xib */,
+				75647094162BABE200D75D1A /* MADFirstViewController.h */,
+				75647095162BABE200D75D1A /* MADFirstViewController.m */,
+				75647096162BABE200D75D1A /* MADFirstViewController.xib */,
+				756470A1162BAC6600D75D1A /* MADSecondViewController.h */,
+				756470A2162BAC6600D75D1A /* MADSecondViewController.m */,
+				756470A3162BAC6600D75D1A /* MADSecondViewController.xib */,
+				756470AC162BB54B00D75D1A /* MADThirdViewController.h */,
+				756470AD162BB54B00D75D1A /* MADThirdViewController.m */,
+				756470AE162BB54B00D75D1A /* MADThirdViewController.xib */,
+				75647082162B8DC700D75D1A /* Supporting Files */,
+			);
+			path = Boulder_scratch;
+			sourceTree = "<group>";
+		};
+		75647082162B8DC700D75D1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				756470AA162BAE2200D75D1A /* boulderflatirons.png */,
+				75647083162B8DC700D75D1A /* Boulder_scratch-Info.plist */,
+				75647084162B8DC700D75D1A /* InfoPlist.strings */,
+				75647087162B8DC700D75D1A /* main.m */,
+				75647089162B8DC700D75D1A /* Boulder_scratch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75647076162B8DC700D75D1A /* Boulder_scratch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7564708F162B8DC700D75D1A /* Build configuration list for PBXNativeTarget "Boulder_scratch" */;
+			buildPhases = (
+				75647073162B8DC700D75D1A /* Sources */,
+				75647074162B8DC700D75D1A /* Frameworks */,
+				75647075162B8DC700D75D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boulder_scratch;
+			productName = Boulder_scratch;
+			productReference = 75647077162B8DC700D75D1A /* Boulder_scratch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7564706E162B8DC700D75D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Aileen Pierce";
+			};
+			buildConfigurationList = 75647071162B8DC700D75D1A /* Build configuration list for PBXProject "Boulder_scratch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7564706C162B8DC700D75D1A;
+			productRefGroup = 75647078162B8DC700D75D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75647076162B8DC700D75D1A /* Boulder_scratch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75647075162B8DC700D75D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75647086162B8DC700D75D1A /* InfoPlist.strings in Resources */,
+				75647093162B91C700D75D1A /* TabBarController.xib in Resources */,
+				75647098162BABE200D75D1A /* MADFirstViewController.xib in Resources */,
+				756470A5162BAC6600D75D1A /* MADSecondViewController.xib in Resources */,
+				756470AB162BAE2200D75D1A /* boulderflatirons.png in Resources */,
+				756470B0162BB54B00D75D1A /* MADThirdViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75647073162B8DC700D75D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75647088162B8DC700D75D1A /* main.m in Sources */,
+				7564708C162B8DC700D75D1A /* MADAppDelegate.m in Sources */,
+				75647097162BABE200D75D1A /* MADFirstViewController.m in Sources */,
+				756470A4162BAC6600D75D1A /* MADSecondViewController.m in Sources */,
+				756470AF162BB54B00D75D1A /* MADThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75647084162B8DC700D75D1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75647085162B8DC700D75D1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7564708D162B8DC700D75D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7564708E162B8DC700D75D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75647090162B8DC700D75D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boulder_scratch/Boulder_scratch-Prefix.pch";
+				INFOPLIST_FILE = "Boulder_scratch/Boulder_scratch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75647091162B8DC700D75D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boulder_scratch/Boulder_scratch-Prefix.pch";
+				INFOPLIST_FILE = "Boulder_scratch/Boulder_scratch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75647071162B8DC700D75D1A /* Build configuration list for PBXProject "Boulder_scratch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7564708D162B8DC700D75D1A /* Debug */,
+				7564708E162B8DC700D75D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7564708F162B8DC700D75D1A /* Build configuration list for PBXNativeTarget "Boulder_scratch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75647090162B8DC700D75D1A /* Debug */,
+				75647091162B8DC700D75D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7564706E162B8DC700D75D1A /* Project object */;
+}
