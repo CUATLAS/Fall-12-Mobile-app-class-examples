@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		755E49FF1651701A006B5798 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755E49FE1651701A006B5798 /* UIKit.framework */; };
+		755E4A011651701A006B5798 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755E4A001651701A006B5798 /* Foundation.framework */; };
+		755E4A031651701A006B5798 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755E4A021651701A006B5798 /* CoreGraphics.framework */; };
+		755E4A091651701A006B5798 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 755E4A071651701A006B5798 /* InfoPlist.strings */; };
+		755E4A0B1651701A006B5798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 755E4A0A1651701A006B5798 /* main.m */; };
+		755E4A0F1651701A006B5798 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 755E4A0E1651701A006B5798 /* MADAppDelegate.m */; };
+		755E4A121651701A006B5798 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 755E4A111651701A006B5798 /* MADViewController.m */; };
+		755E4A151651701A006B5798 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 755E4A131651701A006B5798 /* MADViewController.xib */; };
+		755E4A1C16517035006B5798 /* tennisball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 755E4A1B16517035006B5798 /* tennisball.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		755E49FA1651701A006B5798 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		755E49FE1651701A006B5798 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		755E4A001651701A006B5798 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		755E4A021651701A006B5798 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		755E4A061651701A006B5798 /* Animation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animation-Info.plist"; sourceTree = "<group>"; };
+		755E4A081651701A006B5798 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		755E4A0A1651701A006B5798 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		755E4A0C1651701A006B5798 /* Animation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animation-Prefix.pch"; sourceTree = "<group>"; };
+		755E4A0D1651701A006B5798 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		755E4A0E1651701A006B5798 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		755E4A101651701A006B5798 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		755E4A111651701A006B5798 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		755E4A141651701A006B5798 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		755E4A1B16517035006B5798 /* tennisball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tennisball.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		755E49F71651701A006B5798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755E49FF1651701A006B5798 /* UIKit.framework in Frameworks */,
+				755E4A011651701A006B5798 /* Foundation.framework in Frameworks */,
+				755E4A031651701A006B5798 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		755E49EF1651701A006B5798 = {
+			isa = PBXGroup;
+			children = (
+				755E4A041651701A006B5798 /* Animation */,
+				755E49FD1651701A006B5798 /* Frameworks */,
+				755E49FB1651701A006B5798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		755E49FB1651701A006B5798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				755E49FA1651701A006B5798 /* Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		755E49FD1651701A006B5798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				755E49FE1651701A006B5798 /* UIKit.framework */,
+				755E4A001651701A006B5798 /* Foundation.framework */,
+				755E4A021651701A006B5798 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		755E4A041651701A006B5798 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				755E4A0D1651701A006B5798 /* MADAppDelegate.h */,
+				755E4A0E1651701A006B5798 /* MADAppDelegate.m */,
+				755E4A101651701A006B5798 /* MADViewController.h */,
+				755E4A111651701A006B5798 /* MADViewController.m */,
+				755E4A131651701A006B5798 /* MADViewController.xib */,
+				755E4A051651701A006B5798 /* Supporting Files */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		755E4A051651701A006B5798 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				755E4A1B16517035006B5798 /* tennisball.jpg */,
+				755E4A061651701A006B5798 /* Animation-Info.plist */,
+				755E4A071651701A006B5798 /* InfoPlist.strings */,
+				755E4A0A1651701A006B5798 /* main.m */,
+				755E4A0C1651701A006B5798 /* Animation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		755E49F91651701A006B5798 /* Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755E4A181651701A006B5798 /* Build configuration list for PBXNativeTarget "Animation" */;
+			buildPhases = (
+				755E49F61651701A006B5798 /* Sources */,
+				755E49F71651701A006B5798 /* Frameworks */,
+				755E49F81651701A006B5798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animation;
+			productName = Animation;
+			productReference = 755E49FA1651701A006B5798 /* Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		755E49F11651701A006B5798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Aileen Pierce";
+			};
+			buildConfigurationList = 755E49F41651701A006B5798 /* Build configuration list for PBXProject "Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 755E49EF1651701A006B5798;
+			productRefGroup = 755E49FB1651701A006B5798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				755E49F91651701A006B5798 /* Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		755E49F81651701A006B5798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755E4A091651701A006B5798 /* InfoPlist.strings in Resources */,
+				755E4A151651701A006B5798 /* MADViewController.xib in Resources */,
+				755E4A1C16517035006B5798 /* tennisball.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		755E49F61651701A006B5798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755E4A0B1651701A006B5798 /* main.m in Sources */,
+				755E4A0F1651701A006B5798 /* MADAppDelegate.m in Sources */,
+				755E4A121651701A006B5798 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		755E4A071651701A006B5798 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				755E4A081651701A006B5798 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		755E4A131651701A006B5798 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				755E4A141651701A006B5798 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		755E4A161651701A006B5798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		755E4A171651701A006B5798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		755E4A191651701A006B5798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animation/Animation-Prefix.pch";
+				INFOPLIST_FILE = "Animation/Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		755E4A1A1651701A006B5798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animation/Animation-Prefix.pch";
+				INFOPLIST_FILE = "Animation/Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		755E49F41651701A006B5798 /* Build configuration list for PBXProject "Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755E4A161651701A006B5798 /* Debug */,
+				755E4A171651701A006B5798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755E4A181651701A006B5798 /* Build configuration list for PBXNativeTarget "Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755E4A191651701A006B5798 /* Debug */,
+				755E4A1A1651701A006B5798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 755E49F11651701A006B5798 /* Project object */;
+}
